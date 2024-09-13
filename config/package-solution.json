@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "today-menu-client-side-solution",
+    "id": "afc7dce5-4872-473c-b72e-35d085ca2932",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Today-Menu description"
+      },
+      "longDescription": {
+        "default": "Today-Menu description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "today-menu Feature",
+        "description": "The feature that activates elements of the today-menu solution.",
+        "id": "bd43e91e-df01-449d-8ed3-edd0c5f2cb99",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/today-menu.sppkg"
+  }
+}

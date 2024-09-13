@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "today-menu",
+    "libraryId": "afc7dce5-4872-473c-b72e-35d085ca2932",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Today-Menu",
+    "solutionShortDescription": "Today-Menu description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

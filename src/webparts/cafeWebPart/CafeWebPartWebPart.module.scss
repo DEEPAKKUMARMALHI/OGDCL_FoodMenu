@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+ 
+.cafeheading {
+  color: #0494DD;
+  font-size: 16px;
+  margin-left: 15px;
+}
+ 
+.cafeContainer {
+  width: 97%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%; /* 5% gap between icons */
+  justify-content: center;
+  margin-top: -20px;
+}
+ 
+/* Individual icon styles */
+.cafeIconItem {
+  margin-top: 3%;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 3%;
+}
+ 
+.cafeIconImage {
+  display: block;
+  /* height: 20%; */
+  margin: 0 auto;
+  padding-bottom: 1%;
+  width: 40%;
+}
+ 
+.cafeIcontext {
+  padding-top: 5px;
+  font-size: 11px;
+  margin-top: 2%; /* Margin above text */
+}
+ 
+.cafeTextlink {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0vw;
+  display: block;
+  margin-top: 1%; /* Margin above text link */
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+ 
+  &:hover {
+    color: #0494DD !important;
+  }
+ 
+  /* Adjusted See More button */
+  .cafeSeemore {
+    justify-content: end;
+    margin-top: 0;
+    font-size: inherit;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  .cafeLinkseemore {
+    text-decoration: none;
+  }
+ 
+  .cafeSeemoretext {
+    font-size: 11px;
+    color: #0494dd;
+    font-family: Poppins;
+    padding-left: 183%;
+    text-decoration: none;
+}
+ 
+}
+ 

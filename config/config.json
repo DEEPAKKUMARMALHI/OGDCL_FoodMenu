@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cafe-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cafeWebPart/CafeWebPartWebPart.js",
+          "manifest": "./src/webparts/cafeWebPart/CafeWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CafeWebPartWebPartStrings": "lib/webparts/cafeWebPart/loc/{locale}.js"
+  }
+}
